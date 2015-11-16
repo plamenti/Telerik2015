@@ -1,9 +1,9 @@
 # Teamwork
 ## Scrum Simulation - How to organize a party
 ### First:
-* Determine the Team - Бисер Христов a.k.a. Bizuuu; Благой Шоков a.k.a. Blagoy.Shokov; Пламен Костадинов, a.k.a. plamenti
-* Choose a Product Owner - Венцислав Иванов, a.k.a. ventsislav.a.ivanov
-* Choose a Scrum Master - Душка Драгоева, a.k.a. dushka.dragoeva 
+* Determine the Team - Bizuuu; Blagoy.Shokov; plamenti
+* Choose a Product Owner - ventsislav.a.ivanov
+* Choose a Scrum Master - dushka.dragoeva 
 
 ### Second:
 The **Product Owner** should:
