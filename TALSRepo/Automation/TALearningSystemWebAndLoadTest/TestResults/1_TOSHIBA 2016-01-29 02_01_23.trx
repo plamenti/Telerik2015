@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3a81725a-c624-4a49-b85b-27583234dfe9" name="1@TOSHIBA 2016-01-29 02:01:23" runUser="Toshiba\1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="VentsiSettings" id="3d304e1f-3f83-4d93-8579-73b82189cbcc">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution>
+      <Hosts skipUnhostableTests="false" />
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207" simulateThinkTimes="true" runUntilDataExhausted="true">
+          <Browser name="Internet Explorer 9.0" MaxConnections="6">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+        <WebAiiTestRunConfig testTypeId="c4241296-3c6e-46b1-bf92-e0bd3e0eb017" Settings="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;Settings xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;Web&gt;&#xD;&#xA;    &lt;WebKitExecutionDelay&gt;0&lt;/WebKitExecutionDelay&gt;&#xD;&#xA;    &lt;ExecutingBrowsers /&gt;&#xD;&#xA;    &lt;UseMultiBrowserExecution&gt;false&lt;/UseMultiBrowserExecution&gt;&#xD;&#xA;    &lt;RecycleBrowser&gt;false&lt;/RecycleBrowser&gt;&#xD;&#xA;    &lt;AspNetDevServerPort&gt;-1&lt;/AspNetDevServerPort&gt;&#xD;&#xA;    &lt;LocalWebServer&gt;None&lt;/LocalWebServer&gt;&#xD;&#xA;    &lt;EnableUILessRequestViewing&gt;false&lt;/EnableUILessRequestViewing&gt;&#xD;&#xA;    &lt;WebAppPhysicalPath /&gt;&#xD;&#xA;    &lt;DefaultBrowser&gt;InternetExplorer&lt;/DefaultBrowser&gt;&#xD;&#xA;    &lt;Browser&gt;InternetExplorer&lt;/Browser&gt;&#xD;&#xA;    &lt;EnableScriptLogging&gt;false&lt;/EnableScriptLogging&gt;&#xD;&#xA;    &lt;BaseUrl /&gt;&#xD;&#xA;    &lt;KillBrowserProcessOnClose&gt;false&lt;/KillBrowserProcessOnClose&gt;&#xD;&#xA;    &lt;UseHttpProxy&gt;false&lt;/UseHttpProxy&gt;&#xD;&#xA;    &lt;EnableSilverlight&gt;false&lt;/EnableSilverlight&gt;&#xD;&#xA;    &lt;VerboseHttpProxy&gt;false&lt;/VerboseHttpProxy&gt;&#xD;&#xA;    &lt;SilverlightConnectTimeout&gt;60000&lt;/SilverlightConnectTimeout&gt;&#xD;&#xA;  &lt;/Web&gt;&#xD;&#xA;  &lt;Wpf&gt;&#xD;&#xA;    &lt;DefaultApplicationPath /&gt;&#xD;&#xA;  &lt;/Wpf&gt;&#xD;&#xA;  &lt;CreateLogFile&gt;true&lt;/CreateLogFile&gt;&#xD;&#xA;  &lt;LogLocation&gt;C:\WebAiiLog\&lt;/LogLocation&gt;&#xD;&#xA;  &lt;QueryEventLogErrorsOnExit&gt;false&lt;/QueryEventLogErrorsOnExit&gt;&#xD;&#xA;  &lt;LogAnnotations&gt;false&lt;/LogAnnotations&gt;&#xD;&#xA;  &lt;SimulatedMouseMoveSpeed&gt;0.3&lt;/SimulatedMouseMoveSpeed&gt;&#xD;&#xA;  &lt;WaitCheckInterval&gt;500&lt;/WaitCheckInterval&gt;&#xD;&#xA;  &lt;ElementWaitTimeout&gt;30000&lt;/ElementWaitTimeout&gt;&#xD;&#xA;  &lt;ExecuteCommandTimeout&gt;20000&lt;/ExecuteCommandTimeout&gt;&#xD;&#xA;  &lt;ExecutionDelay&gt;0&lt;/ExecutionDelay&gt;&#xD;&#xA;  &lt;UnexpectedDialogAction&gt;HandleAndFailTest&lt;/UnexpectedDialogAction&gt;&#xD;&#xA;  &lt;AnnotateExecution&gt;false&lt;/AnnotateExecution&gt;&#xD;&#xA;  &lt;AnnotationMode&gt;All&lt;/AnnotationMode&gt;&#xD;&#xA;  &lt;XMultiMgr&gt;true&lt;/XMultiMgr&gt;&#xD;&#xA;  &lt;ClientReadyTimeout&gt;60000&lt;/ClientReadyTimeout&gt;&#xD;&#xA;&lt;/Settings&gt;" xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" />
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="1_TOSHIBA 2016-01-29 02_01_23" />
+    <Properties>
+      <Property name="TestSettingsUIType" value="UnitTest" />
+    </Properties>
+  </TestSettings>
+  <Times creation="2016-01-29T02:01:23.0517495+02:00" queuing="2016-01-29T02:01:23.4985367+02:00" start="2016-01-29T02:01:23.6860462+02:00" finish="2016-01-29T02:02:39.0336107+02:00" />
+  <ResultSummary outcome="Aborted">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <WebTest name="CoursesTest" storage="d:\programming\telerik2015\qa\talsrepo\automation\talearningsystemwebandloadtest\talearningsystemwebandloadtest\coursesnavigation\coursestest.webtest" id="8e0238d3-1dd8-4053-a17a-1ed9f65636c3" persistedWebTest="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KPFdlYlRlc3QgTmFtZT0iQ291cnNlc1Rlc3QiIElkPSI4ZTAyMzhkMy0xZGQ4LTQwNTMtYTE3YS0xZWQ5ZjY1NjM2YzMiIE93bmVyPSIiIFByaW9yaXR5PSIyMTQ3NDgzNjQ3IiBFbmFibGVkPSJUcnVlIiBDc3NQcm9qZWN0U3RydWN0dXJlPSIiIENzc0l0ZXJhdGlvbj0iIiBUaW1lb3V0PSIwIiBXb3JrSXRlbUlkcz0iIiB4bWxucz0iaHR0cDovL21pY3Jvc29mdC5jb20vc2NoZW1hcy9WaXN1YWxTdHVkaW8vVGVhbVRlc3QvMjAxMCIgRGVzY3JpcHRpb249IiIgQ3JlZGVudGlhbFVzZXJOYW1lPSIiIENyZWRlbnRpYWxQYXNzd29yZD0iIiBQcmVBdXRoZW50aWNhdGU9IlRydWUiIFByb3h5PSJkZWZhdWx0IiBTdG9wT25FcnJvcj0iRmFsc2UiIFJlY29yZGVkUmVzdWx0RmlsZT0iIiBSZXN1bHRzTG9jYWxlPSIiPg0KICA8SXRlbXM+DQogICAgPFJlcXVlc3QgTWV0aG9kPSJHRVQiIEd1aWQ9ImZlYjY2NDkyLTYwMWUtNDRjYS1iZjEwLTlhMWYzYThlYTBkNSIgVmVyc2lvbj0iMS4xIiBVcmw9Int7VGVzdEVudn19LyIgVGhpbmtUaW1lPSIxIiBUaW1lb3V0PSIzMDAiIFBhcnNlRGVwZW5kZW50UmVxdWVzdHM9IlRydWUiIEZvbGxvd1JlZGlyZWN0cz0iVHJ1ZSIgUmVjb3JkUmVzdWx0PSJUcnVlIiBDYWNoZT0iRmFsc2UiIFJlc3BvbnNlVGltZUdvYWw9IjAiIEVuY29kaW5nPSJ1dGYtOCIgRXhwZWN0ZWRIdHRwU3RhdHVzQ29kZT0iMCIgRXhwZWN0ZWRSZXNwb25zZVVybD0iIiBSZXBvcnRpbmdOYW1lPSIiIElnbm9yZUh0dHBTdGF0dXNDb2RlPSJGYWxzZSIgLz4NCiAgICA8UmVxdWVzdCBNZXRob2Q9IkdFVCIgR3VpZD0iNzhhOTI2NTYtNmQxYS00N2E1LTkxYjAtOTIwZjUwYjY1OGZiIiBWZXJzaW9uPSIxLjEiIFVybD0ie3tUZXN0RW52fX0vVXNlcnMvQXV0aC9Mb2dpbiIgVGhpbmtUaW1lPSIxMCIgVGltZW91dD0iMzAwIiBQYXJzZURlcGVuZGVudFJlcXVlc3RzPSJUcnVlIiBGb2xsb3dSZWRpcmVjdHM9IlRydWUiIFJlY29yZFJlc3VsdD0iVHJ1ZSIgQ2FjaGU9IkZhbHNlIiBSZXNwb25zZVRpbWVHb2FsPSIwIiBFbmNvZGluZz0idXRmLTgiIEV4cGVjdGVkSHR0cFN0YXR1c0NvZGU9IjAiIEV4cGVjdGVkUmVzcG9uc2VVcmw9IiIgUmVwb3J0aW5nTmFtZT0iIiBJZ25vcmVIdHRwU3RhdHVzQ29kZT0iRmFsc2UiIC8+DQogICAgPFJlcXVlc3QgTWV0aG9kPSJQT1NUIiBHdWlkPSIwYjJkNjIyYy04MDI2LTQ1MWMtOTNkZC05MTBiZDljOThiYjciIFZlcnNpb249IjEuMSIgVXJsPSJ7e1Rlc3RFbnZ9fS9Vc2Vycy9BdXRoL0xvZ2luIiBUaGlua1RpbWU9IjEiIFRpbWVvdXQ9IjMwMCIgUGFyc2VEZXBlbmRlbnRSZXF1ZXN0cz0iVHJ1ZSIgRm9sbG93UmVkaXJlY3RzPSJUcnVlIiBSZWNvcmRSZXN1bHQ9IlRydWUiIENhY2hlPSJGYWxzZSIgUmVzcG9uc2VUaW1lR29hbD0iMCIgRW5jb2Rpbmc9InV0Zi04IiBFeHBlY3RlZEh0dHBTdGF0dXNDb2RlPSIwIiBFeHBlY3RlZFJlc3BvbnNlVXJsPSJ7e1Rlc3RFbnZ9fS8iIFJlcG9ydGluZ05hbWU9IiIgSWdub3JlSHR0cFN0YXR1c0NvZGU9IkZhbHNlIj4NCiAgICAgIDxGb3JtUG9zdEh0dHBCb2R5Pg0KICAgICAgICA8Rm9ybVBvc3RQYXJhbWV0ZXIgTmFtZT0iVXNlcm5hbWVPckVtYWlsIiBWYWx1ZT0iR2lhbnRUZXN0VXNlciIgUmVjb3JkZWRWYWx1ZT0iR2lhbnRUZXN0VXNlciIgQ29ycmVsYXRpb25CaW5kaW5nPSIiIFVybEVuY29kZT0iVHJ1ZSIgLz4NCiAgICAgICAgPEZvcm1Qb3N0UGFyYW1ldGVyIE5hbWU9IlBhc3N3b3JkIiBWYWx1ZT0iMTIzNDU2IiBSZWNvcmRlZFZhbHVlPSIxMjM0NTYiIENvcnJlbGF0aW9uQmluZGluZz0iIiBVcmxFbmNvZGU9IlRydWUiIC8+DQogICAgICA8L0Zvcm1Qb3N0SHR0cEJvZHk+DQogICAgPC9SZXF1ZXN0Pg0KICAgIDxSZXF1ZXN0IE1ldGhvZD0iR0VUIiBHdWlkPSJjMzY1YzM2Zi00NjkxLTQzMTYtYWVkYS0zMTM3M2EwNjkxMjAiIFZlcnNpb249IjEuMSIgVXJsPSJ7e0NvdXJzZVRpdGxlcy5Db3Vyc2VUaXRsZXMjY3N2LkNvdXJzZVVybH19IiBUaGlua1RpbWU9IjQiIFRpbWVvdXQ9IjMwMCIgUGFyc2VEZXBlbmRlbnRSZXF1ZXN0cz0iVHJ1ZSIgRm9sbG93UmVkaXJlY3RzPSJUcnVlIiBSZWNvcmRSZXN1bHQ9IlRydWUiIENhY2hlPSJGYWxzZSIgUmVzcG9uc2VUaW1lR29hbD0iMCIgRW5jb2Rpbmc9InV0Zi04IiBFeHBlY3RlZEh0dHBTdGF0dXNDb2RlPSIwIiBFeHBlY3RlZFJlc3BvbnNlVXJsPSIiIFJlcG9ydGluZ05hbWU9IiIgSWdub3JlSHR0cFN0YXR1c0NvZGU9IkZhbHNlIiAvPg0KICAgIDxSZXF1ZXN0IE1ldGhvZD0iR0VUIiBHdWlkPSI2NmQ1MmJiNi00MzAxLTRiMTAtODRkZC0zMmQ0YjIxYWZkMGIiIFZlcnNpb249IjEuMSIgVXJsPSJ7e1Rlc3RFbnZ9fS9Vc2Vycy9BdXRoL0xvZ091dCIgVGhpbmtUaW1lPSIxIiBUaW1lb3V0PSIzMDAiIFBhcnNlRGVwZW5kZW50UmVxdWVzdHM9IlRydWUiIEZvbGxvd1JlZGlyZWN0cz0iVHJ1ZSIgUmVjb3JkUmVzdWx0PSJUcnVlIiBDYWNoZT0iRmFsc2UiIFJlc3BvbnNlVGltZUdvYWw9IjAiIEVuY29kaW5nPSJ1dGYtOCIgRXhwZWN0ZWRIdHRwU3RhdHVzQ29kZT0iMCIgRXhwZWN0ZWRSZXNwb25zZVVybD0ie3tUZXN0RW52fX0vIiBSZXBvcnRpbmdOYW1lPSIiIElnbm9yZUh0dHBTdGF0dXNDb2RlPSJGYWxzZSIgLz4NCiAgPC9JdGVtcz4NCiAgPERhdGFTb3VyY2VzPg0KICAgIDxEYXRhU291cmNlIE5hbWU9IkNvdXJzZVRpdGxlcyIgUHJvdmlkZXI9Ik1pY3Jvc29mdC5WaXN1YWxTdHVkaW8uVGVzdFRvb2xzLkRhdGFTb3VyY2UuQ1NWIiBDb25uZWN0aW9uPSJ8RGF0YURpcmVjdG9yeXxcLi5cQ291cnNlVGl0bGVzLmNzdiI+DQogICAgICA8VGFibGVzPg0KICAgICAgICA8RGF0YVNvdXJjZVRhYmxlIE5hbWU9IkNvdXJzZVRpdGxlcyNjc3YiIFNlbGVjdENvbHVtbnM9IlNlbGVjdE9ubHlCb3VuZENvbHVtbnMiIEFjY2Vzc01ldGhvZD0iU2VxdWVudGlhbCIgLz4NCiAgICAgIDwvVGFibGVzPg0KICAgIDwvRGF0YVNvdXJjZT4NCiAgPC9EYXRhU291cmNlcz4NCiAgPENvbnRleHRQYXJhbWV0ZXJzPg0KICAgIDxDb250ZXh0UGFyYW1ldGVyIE5hbWU9IlRlc3RFbnYiIFZhbHVlPSJodHRwOi8vc3RhZ2UudGVsZXJpa2FjYWRlbXkuY29tIiAvPg0KICA8L0NvbnRleHRQYXJhbWV0ZXJzPg0KICA8VmFsaWRhdGlvblJ1bGVzPg0KICAgIDxWYWxpZGF0aW9uUnVsZSBDbGFzc25hbWU9Ik1pY3Jvc29mdC5WaXN1YWxTdHVkaW8uVGVzdFRvb2xzLldlYlRlc3RpbmcuUnVsZXMuVmFsaWRhdGVSZXNwb25zZVVybCwgTWljcm9zb2Z0LlZpc3VhbFN0dWRpby5RdWFsaXR5VG9vbHMuV2ViVGVzdEZyYW1ld29yaywgVmVyc2lvbj0xMC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhIiBEaXNwbGF5TmFtZT0iUmVzcG9uc2UgVVJMIiBEZXNjcmlwdGlvbj0iVmFsaWRhdGVzIHRoYXQgdGhlIHJlc3BvbnNlIFVSTCBhZnRlciByZWRpcmVjdHMgYXJlIGZvbGxvd2VkIGlzIHRoZSBzYW1lIGFzIHRoZSByZWNvcmRlZCByZXNwb25zZSBVUkwuICBRdWVyeVN0cmluZyBwYXJhbWV0ZXJzIGFyZSBpZ25vcmVkLiIgTGV2ZWw9IkxvdyIgRXhlY3R1aW9uT3JkZXI9IkJlZm9yZURlcGVuZGVudHMiIC8+DQogICAgPFZhbGlkYXRpb25SdWxlIENsYXNzbmFtZT0iTWljcm9zb2Z0LlZpc3VhbFN0dWRpby5UZXN0VG9vbHMuV2ViVGVzdGluZy5SdWxlcy5WYWxpZGF0aW9uUnVsZVJlc3BvbnNlVGltZUdvYWwsIE1pY3Jvc29mdC5WaXN1YWxTdHVkaW8uUXVhbGl0eVRvb2xzLldlYlRlc3RGcmFtZXdvcmssIFZlcnNpb249MTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjAzZjVmN2YxMWQ1MGEzYSIgRGlzcGxheU5hbWU9IlJlc3BvbnNlIFRpbWUgR29hbCIgRGVzY3JpcHRpb249IlZhbGlkYXRlcyB0aGF0IHRoZSByZXNwb25zZSB0aW1lIGZvciB0aGUgcmVxdWVzdCBpcyBsZXNzIHRoYW4gb3IgZXF1YWwgdG8gdGhlIHJlc3BvbnNlIHRpbWUgZ29hbCBhcyBzcGVjaWZpZWQgb24gdGhlIHJlcXVlc3QuICBSZXNwb25zZSB0aW1lIGdvYWxzIG9mIHplcm8gd2lsbCBiZSBpZ25vcmVkLiIgTGV2ZWw9IkxvdyIgRXhlY3R1aW9uT3JkZXI9IkFmdGVyRGVwZW5kZW50cyI+DQogICAgICA8UnVsZVBhcmFtZXRlcnM+DQogICAgICAgIDxSdWxlUGFyYW1ldGVyIE5hbWU9IlRvbGVyYW5jZSIgVmFsdWU9IjAiIC8+DQogICAgICA8L1J1bGVQYXJhbWV0ZXJzPg0KICAgIDwvVmFsaWRhdGlvblJ1bGU+DQogIDwvVmFsaWRhdGlvblJ1bGVzPg0KPC9XZWJUZXN0Pg==">
+      <Execution id="1cb224d0-caa5-4191-9132-a2df762d10d2" />
+    </WebTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry isTransparent="false" testId="8e0238d3-1dd8-4053-a17a-1ed9f65636c3" executionId="1cb224d0-caa5-4191-9132-a2df762d10d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <WebTestResult executionId="1cb224d0-caa5-4191-9132-a2df762d10d2" testId="8e0238d3-1dd8-4053-a17a-1ed9f65636c3" testName="CoursesTest" computerName="TOSHIBA" duration="00:01:03.9616806" startTime="2016-01-29T02:01:23.7485499+02:00" endTime="2016-01-29T02:02:38.7056523+02:00" testType="4e7599fa-5ecb-43e9-a887-cd63cf72d207" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1cb224d0-caa5-4191-9132-a2df762d10d2" dataRowCount="12">
+      <Output>
+        <ErrorInfo>
+          <Message>0 primary requests, 1 dependant requests and 0 conditional rules failed</Message>
+        </ErrorInfo>
+      </Output>
+      <TestSettings name="VentsiSettings" id="3d304e1f-3f83-4d93-8579-73b82189cbcc">
+        <Description>These are default test settings for a local test run.</Description>
+        <Execution>
+          <Hosts skipUnhostableTests="false" />
+          <TestTypeSpecific>
+            <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+              <AssemblyResolution>
+                <TestDirectory useLoadContext="true" />
+              </AssemblyResolution>
+            </UnitTestRunConfig>
+            <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207" simulateThinkTimes="true" runUntilDataExhausted="true">
+              <Browser name="Internet Explorer 9.0" MaxConnections="6">
+                <Headers>
+                  <Header name="User-Agent" value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+                  <Header name="Accept" value="*/*" />
+                  <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+                  <Header name="Accept-Encoding" value="GZIP" />
+                </Headers>
+              </Browser>
+            </WebTestRunConfiguration>
+            <WebAiiTestRunConfig testTypeId="c4241296-3c6e-46b1-bf92-e0bd3e0eb017" Settings="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&#xD;&#xA;&lt;Settings xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&#xD;&#xA;  &lt;Web&gt;&#xD;&#xA;    &lt;WebKitExecutionDelay&gt;0&lt;/WebKitExecutionDelay&gt;&#xD;&#xA;    &lt;ExecutingBrowsers /&gt;&#xD;&#xA;    &lt;UseMultiBrowserExecution&gt;false&lt;/UseMultiBrowserExecution&gt;&#xD;&#xA;    &lt;RecycleBrowser&gt;false&lt;/RecycleBrowser&gt;&#xD;&#xA;    &lt;AspNetDevServerPort&gt;-1&lt;/AspNetDevServerPort&gt;&#xD;&#xA;    &lt;LocalWebServer&gt;None&lt;/LocalWebServer&gt;&#xD;&#xA;    &lt;EnableUILessRequestViewing&gt;false&lt;/EnableUILessRequestViewing&gt;&#xD;&#xA;    &lt;WebAppPhysicalPath /&gt;&#xD;&#xA;    &lt;DefaultBrowser&gt;InternetExplorer&lt;/DefaultBrowser&gt;&#xD;&#xA;    &lt;Browser&gt;InternetExplorer&lt;/Browser&gt;&#xD;&#xA;    &lt;EnableScriptLogging&gt;false&lt;/EnableScriptLogging&gt;&#xD;&#xA;    &lt;BaseUrl /&gt;&#xD;&#xA;    &lt;KillBrowserProcessOnClose&gt;false&lt;/KillBrowserProcessOnClose&gt;&#xD;&#xA;    &lt;UseHttpProxy&gt;false&lt;/UseHttpProxy&gt;&#xD;&#xA;    &lt;EnableSilverlight&gt;false&lt;/EnableSilverlight&gt;&#xD;&#xA;    &lt;VerboseHttpProxy&gt;false&lt;/VerboseHttpProxy&gt;&#xD;&#xA;    &lt;SilverlightConnectTimeout&gt;60000&lt;/SilverlightConnectTimeout&gt;&#xD;&#xA;  &lt;/Web&gt;&#xD;&#xA;  &lt;Wpf&gt;&#xD;&#xA;    &lt;DefaultApplicationPath /&gt;&#xD;&#xA;  &lt;/Wpf&gt;&#xD;&#xA;  &lt;CreateLogFile&gt;true&lt;/CreateLogFile&gt;&#xD;&#xA;  &lt;LogLocation&gt;C:\WebAiiLog\&lt;/LogLocation&gt;&#xD;&#xA;  &lt;QueryEventLogErrorsOnExit&gt;false&lt;/QueryEventLogErrorsOnExit&gt;&#xD;&#xA;  &lt;LogAnnotations&gt;false&lt;/LogAnnotations&gt;&#xD;&#xA;  &lt;SimulatedMouseMoveSpeed&gt;0.3&lt;/SimulatedMouseMoveSpeed&gt;&#xD;&#xA;  &lt;WaitCheckInterval&gt;500&lt;/WaitCheckInterval&gt;&#xD;&#xA;  &lt;ElementWaitTimeout&gt;30000&lt;/ElementWaitTimeout&gt;&#xD;&#xA;  &lt;ExecuteCommandTimeout&gt;20000&lt;/ExecuteCommandTimeout&gt;&#xD;&#xA;  &lt;ExecutionDelay&gt;0&lt;/ExecutionDelay&gt;&#xD;&#xA;  &lt;UnexpectedDialogAction&gt;HandleAndFailTest&lt;/UnexpectedDialogAction&gt;&#xD;&#xA;  &lt;AnnotateExecution&gt;false&lt;/AnnotateExecution&gt;&#xD;&#xA;  &lt;AnnotationMode&gt;All&lt;/AnnotationMode&gt;&#xD;&#xA;  &lt;XMultiMgr&gt;true&lt;/XMultiMgr&gt;&#xD;&#xA;  &lt;ClientReadyTimeout&gt;60000&lt;/ClientReadyTimeout&gt;&#xD;&#xA;&lt;/Settings&gt;" xmlns="http://artoftest.com/schemas/WebAiiDesignCanvas/1.0.0" />
+          </TestTypeSpecific>
+          <AgentRule name="LocalMachineDefaultRole">
+          </AgentRule>
+        </Execution>
+        <Deployment runDeploymentRoot="1_TOSHIBA 2016-01-29 02_01_23" />
+        <Properties>
+          <Property name="TestSettingsUIType" value="UnitTest" />
+        </Properties>
+      </TestSettings>
+      <WebTestResultFilePath>
+      </WebTestResultFilePath>
+    </WebTestResult>
+  </Results>
+</TestRun>

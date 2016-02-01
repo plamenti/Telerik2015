@@ -1,0 +1,7 @@
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALearningSystemTestingFramework\TelerikAcademyLearningSystem.Utilities\bin\Debug\TelerikAcademyLearningSystem.Utilities.dll
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALearningSystemTestingFramework\TelerikAcademyLearningSystem.Utilities\bin\Debug\TelerikAcademyLearningSystem.Utilities.pdb
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALearningSystemTestingFramework\TelerikAcademyLearningSystem.Utilities\bin\Debug\Excel.dll
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALearningSystemTestingFramework\TelerikAcademyLearningSystem.Utilities\bin\Debug\Excel.xml
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALearningSystemTestingFramework\TelerikAcademyLearningSystem.Utilities\obj\Debug\TelerikAcademyLearningSystem.Utilities.csprojResolveAssemblyReference.cache
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALearningSystemTestingFramework\TelerikAcademyLearningSystem.Utilities\obj\Debug\TelerikAcademyLearningSystem.Utilities.dll
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALearningSystemTestingFramework\TelerikAcademyLearningSystem.Utilities\obj\Debug\TelerikAcademyLearningSystem.Utilities.pdb

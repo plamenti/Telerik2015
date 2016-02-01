@@ -1,0 +1,2 @@
+CourseGroupId,CourseInstanceId,Name,WeekDayId,StartTime,EnrollmentStartTime,TrainingRoomId,WeekLectureNumber,CurrentPeopleInGroup,PeopleLimit,AvailableSeats,IsKidsAcademyCourse
+0,276,test,1,29/01/2016 03:00:00,30/01/2016 00:00:00,1,0,0,0,0,false

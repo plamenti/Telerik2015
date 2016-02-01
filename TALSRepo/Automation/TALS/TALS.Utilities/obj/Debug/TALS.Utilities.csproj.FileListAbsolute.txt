@@ -1,0 +1,5 @@
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Utilities\bin\Debug\TALS.Utilities.dll
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Utilities\bin\Debug\TALS.Utilities.pdb
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Utilities\obj\Debug\TALS.Utilities.csprojResolveAssemblyReference.cache
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Utilities\obj\Debug\TALS.Utilities.dll
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Utilities\obj\Debug\TALS.Utilities.pdb

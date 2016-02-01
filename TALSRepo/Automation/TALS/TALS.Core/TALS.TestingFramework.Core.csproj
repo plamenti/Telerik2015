@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE2B27AC-A8FA-4788-9A73-4AB2FF1BBD18}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TALS.TestingFramework.Core</RootNamespace>
+    <AssemblyName>TALS.TestingFramework.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ArtOfTest.WebAii, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TTF\ArtOfTest.WebAii.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\TTF\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BasePage.cs" />
+    <Compile Include="Base\IAsserter.cs" />
+    <Compile Include="Facades\CourseFormPageFacade.cs" />
+    <Compile Include="Facades\CoursesAndLectursFacade.cs" />
+    <Compile Include="Facades\CoursesUnenrolledStudentsFacade.cs" />
+    <Compile Include="Facades\CreateInstanceFacade.cs" />
+    <Compile Include="Facades\GroupsFacade.cs" />
+    <Compile Include="Facades\HomeworkFacade.cs" />
+    <Compile Include="Facades\LicenseFacade.cs" />
+    <Compile Include="Facades\LoginFacade.cs" />
+    <Compile Include="Facades\StudentsStatisticsFacade.cs" />
+    <Compile Include="Pages\CourseFormPage\CourseFormPage.cs" />
+    <Compile Include="Pages\CourseFormPage\CourseFormPage.Map.cs" />
+    <Compile Include="Pages\CourseFormPage\CourseFormPageAsserter.cs" />
+    <Compile Include="Pages\CoursesAndLecturesPage\CoursesAndLecturesPage.Map.cs" />
+    <Compile Include="Pages\CoursesAndLecturesPage\CoursesAndLecturesPage.cs" />
+    <Compile Include="Pages\CoursesAndLecturesPage\CoursesAndLecturesPageAsserter.cs" />
+    <Compile Include="Pages\CoursesUnenrolledStudentsPage\CoursesUnenrolledStudentsPage.cs" />
+    <Compile Include="Pages\CoursesUnenrolledStudentsPage\CoursesUnenrolledStudentsPage.Map.cs" />
+    <Compile Include="Pages\CoursesUnenrolledStudentsPage\CoursesUnenrolledStudentsPageAsserter.cs" />
+    <Compile Include="Pages\GroupsPage\GroupsPage.cs" />
+    <Compile Include="Pages\GroupsPage\GroupsPageAsserter.cs" />
+    <Compile Include="Pages\HomeworkPage\HomeworkPage.cs" />
+    <Compile Include="Pages\HomeworkPage\HomeworkPageAsserter.cs" />
+    <Compile Include="Pages\InstancePage\InstancePage.cs" />
+    <Compile Include="Pages\InstancePage\InstancePage.Map.cs" />
+    <Compile Include="Pages\InstancePage\InstancePageAsserter.cs" />
+    <Compile Include="Pages\LicensePage\LicensePage.cs" />
+    <Compile Include="Pages\LicensePage\LicensePage.Map.cs" />
+    <Compile Include="Pages\LicensePage\LicensePageAsserter.cs" />
+    <Compile Include="Pages\LoginPanelPage\LoginPanelPage.cs" />
+    <Compile Include="Pages\LoginPanelPage\LoginPanelPage.Map.cs" />
+    <Compile Include="Pages\Login\LoginPage.cs" />
+    <Compile Include="Pages\Login\LoginPage.Map.cs" />
+    <Compile Include="Pages\StudentsStatisticPage\StudentsStatisticsPage.cs" />
+    <Compile Include="Pages\StudentsStatisticPage\StudentsStatisticsPageAsserter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pages\StudentsStatisticPage\StudentsStatisticsPage.Map.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pages\GroupsPage\GroupsPage.Map.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pages\HomeworkPage\HomeworkPage.Map.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\StudentsInCourses\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

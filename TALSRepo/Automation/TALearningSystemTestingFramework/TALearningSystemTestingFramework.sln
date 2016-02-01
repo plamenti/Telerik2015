@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TALearningSystemTestingFramework.Core", "TALearningSystemTestingFramework.Core\TALearningSystemTestingFramework.Core.csproj", "{5DA2C68E-25F7-4596-A388-1918C09BAA5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikAcademyLearningSystem.Tests", "TelerikAcademyLearningSystem.Tests\TelerikAcademyLearningSystem.Tests.csproj", "{D0BFC80B-A5D1-4F0F-B317-4FB7C3622239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikAcademyLearningSystem.Core", "TelerikAcademyLearningSystem.Core\TelerikAcademyLearningSystem.Core.csproj", "{F27085D4-FE10-4C8F-99CE-E4BE2542EAB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikAcademyLearningSystem.Utilities", "TelerikAcademyLearningSystem.Utilities\TelerikAcademyLearningSystem.Utilities.csproj", "{5C09DF96-87AF-4A8E-8E2B-1D20E7198B96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DA2C68E-25F7-4596-A388-1918C09BAA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA2C68E-25F7-4596-A388-1918C09BAA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA2C68E-25F7-4596-A388-1918C09BAA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA2C68E-25F7-4596-A388-1918C09BAA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BFC80B-A5D1-4F0F-B317-4FB7C3622239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BFC80B-A5D1-4F0F-B317-4FB7C3622239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BFC80B-A5D1-4F0F-B317-4FB7C3622239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BFC80B-A5D1-4F0F-B317-4FB7C3622239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F27085D4-FE10-4C8F-99CE-E4BE2542EAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27085D4-FE10-4C8F-99CE-E4BE2542EAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27085D4-FE10-4C8F-99CE-E4BE2542EAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27085D4-FE10-4C8F-99CE-E4BE2542EAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C09DF96-87AF-4A8E-8E2B-1D20E7198B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C09DF96-87AF-4A8E-8E2B-1D20E7198B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C09DF96-87AF-4A8E-8E2B-1D20E7198B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C09DF96-87AF-4A8E-8E2B-1D20E7198B96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

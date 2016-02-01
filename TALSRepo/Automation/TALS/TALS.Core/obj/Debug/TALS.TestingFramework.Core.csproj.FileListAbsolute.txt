@@ -1,0 +1,5 @@
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Core\bin\Debug\TALS.TestingFramework.Core.dll
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Core\bin\Debug\TALS.TestingFramework.Core.pdb
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Core\obj\Debug\TALS.TestingFramework.Core.dll
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Core\obj\Debug\TALS.TestingFramework.Core.pdb
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Core\obj\Debug\TALS.TestingFramework.Core.csprojResolveAssemblyReference.cache

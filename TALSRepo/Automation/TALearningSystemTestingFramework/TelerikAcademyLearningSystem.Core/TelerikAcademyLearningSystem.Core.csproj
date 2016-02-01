@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F27085D4-FE10-4C8F-99CE-E4BE2542EAB8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TelerikAcademyLearningSystem.Core</RootNamespace>
+    <AssemblyName>TelerikAcademyLearningSystem.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ArtOfTest.WebAii, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TALS\TTF\ArtOfTest.WebAii.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel">
+      <HintPath>..\TestingFrameworkLibraries\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TALS\TTF\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WebAii.Controls.Html, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=528163f3e645de45, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TALS\TTF\Telerik.WebAii.Controls.Html.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BasePage.cs" />
+    <Compile Include="Constants\AddLicenseConstants.cs" />
+    <Compile Include="Constants\CategoryForm.cs" />
+    <Compile Include="Constants\CourseForm.cs" />
+    <Compile Include="Constants\CourseNames.cs" />
+    <Compile Include="Constants\GridColumnName.cs" />
+    <Compile Include="Constants\FormOfEducation.cs" />
+    <Compile Include="Constants\Global.cs" />
+    <Compile Include="Constants\GridTitle.cs" />
+    <Compile Include="Constants\GroupProperties.cs" />
+    <Compile Include="Constants\GroupsColumnNames.cs" />
+    <Compile Include="Constants\Homework\AddHomeworkConstants.cs" />
+    <Compile Include="Constants\Homework\HomeworkConstant.cs" />
+    <Compile Include="Constants\KidsAcademyRegistrationForm.cs" />
+    <Compile Include="Constants\PageTitle.cs" />
+    <Compile Include="Constants\Paths.cs" />
+    <Compile Include="Constants\SortingHelpersNames.cs" />
+    <Compile Include="Constants\UrlLink.cs" />
+    <Compile Include="Constants\StudentInCourseForm.cs" />
+    <Compile Include="Facades\AdministrationFacade.cs" />
+    <Compile Include="Facades\CategoryFacade.cs" />
+    <Compile Include="Facades\CourseFacade.cs" />
+    <Compile Include="Facades\InstanceFacade.cs" />
+    <Compile Include="Facades\CoursesUnenrolledStudentsFacade.cs" />
+    <Compile Include="Facades\GroupsFacade.cs" />
+    <Compile Include="Facades\HomeworkFacade.cs" />
+    <Compile Include="Facades\KidsAcademyRegistrationChoiceFacade.cs" />
+    <Compile Include="Facades\KidsAcademyRegistrationFacade.cs" />
+    <Compile Include="Facades\LicenseFacade.cs" />
+    <Compile Include="Facades\StudentsStatisticsByAgeFacade.cs" />
+    <Compile Include="Facades\StudentsStatisticsFacade.cs" />
+    <Compile Include="Facades\StudentInCourseFacade.cs" />
+    <Compile Include="Factories\ColumnIndexFacory.cs" />
+    <Compile Include="Factories\GroupsFactory.cs" />
+    <Compile Include="Factories\SortingHelperFactory.cs" />
+    <Compile Include="Model\AdminUser.cs" />
+    <Compile Include="Model\Categories.cs" />
+    <Compile Include="Model\Course.cs" />
+    <Compile Include="Model\Group.cs" />
+    <Compile Include="Model\Homework.cs" />
+    <Compile Include="Model\Instance.cs" />
+    <Compile Include="Model\Kid.cs" />
+    <Compile Include="Model\License.cs" />
+    <Compile Include="Model\Student.cs" />
+    <Compile Include="Pages\AdministrationPage\AdministrationPage.cs" />
+    <Compile Include="Pages\AdministrationPage\AdministrationPage.Map.cs" />
+    <Compile Include="Pages\AdministrationPage\AdministrationPageAsserter.cs" />
+    <Compile Include="Pages\CategoryPages\AddEditFormPage\CategoryFormAsserter.cs" />
+    <Compile Include="Pages\CategoryPages\AddEditFormPage\CategoryFormPage.cs" />
+    <Compile Include="Pages\CategoryPages\AddEditFormPage\CategoryFormPage.Map.cs" />
+    <Compile Include="Pages\CategoryPages\CategoryPage.cs" />
+    <Compile Include="Pages\CategoryPages\CategoryPage.Map.cs" />
+    <Compile Include="Pages\CategoryPages\CategoryPageAsserter.cs" />
+    <Compile Include="Pages\CategoryPages\HierachyCategoryPages\HierachyCategoryAsserter.cs" />
+    <Compile Include="Pages\CategoryPages\HierachyCategoryPages\HierachyCategoryPages.cs" />
+    <Compile Include="Pages\CategoryPages\HierachyCategoryPages\HierachyCategoryPages.Map.cs" />
+    <Compile Include="Pages\CoursesAndLecturesPage\CourseFormPage\CourseFormPage.cs" />
+    <Compile Include="Pages\CoursesAndLecturesPage\CourseFormPage\CourseFormPage.Map.cs" />
+    <Compile Include="Pages\CoursesAndLecturesPage\CourseFormPage\CourseFormPageAsserter.cs" />
+    <Compile Include="Pages\CoursesAndLecturesPage\CoursesAndLecturesPage.cs" />
+    <Compile Include="Pages\CoursesAndLecturesPage\CoursesAndLecturesPage.Map.cs" />
+    <Compile Include="Pages\CoursesAndLecturesPage\CoursesAndLecturesPageAsserter.cs" />
+    <Compile Include="Pages\CoursesUnenrolledStudentsPage\CoursesUnenrolledStudentsPage.cs" />
+    <Compile Include="Pages\CoursesUnenrolledStudentsPage\CoursesUnenrolledStudentsPage.Map.cs" />
+    <Compile Include="Pages\CoursesUnenrolledStudentsPage\CoursesUnenrolledStudentsPageAsserter.cs" />
+    <Compile Include="Pages\GridPages\GridPage.cs" />
+    <Compile Include="Pages\GridPages\GridPage.Map.cs" />
+    <Compile Include="Pages\GridPages\GridPageAsserter.cs" />
+    <Compile Include="Pages\GroupsPage\GroupsPage.cs" />
+    <Compile Include="Pages\GroupsPage\GroupsPage.Map.cs" />
+    <Compile Include="Pages\GroupsPage\GroupsPageAsserter.cs" />
+    <Compile Include="Pages\HomeworkPage\AddHomeworkPage\AddHomeworkPage.cs" />
+    <Compile Include="Pages\HomeworkPage\AddHomeworkPage\AddHomeworkPage.Map.cs" />
+    <Compile Include="Pages\HomeworkPage\AddHomeworkPage\AddHomeworkPageAsserter.cs" />
+    <Compile Include="Pages\HomeworkPage\HomeworkPage.cs" />
+    <Compile Include="Pages\HomeworkPage\HomeworkPage.Map.cs" />
+    <Compile Include="Pages\HomeworkPage\HomeworkPageAsserter.cs" />
+    <Compile Include="Pages\InstancePages\AddEditFormPage\AddEditFormPage.cs" />
+    <Compile Include="Pages\InstancePages\AddEditFormPage\AddEditFormPage.Map.cs" />
+    <Compile Include="Pages\InstancePages\AddEditFormPage\AddEditFormPageAsserter.cs" />
+    <Compile Include="Pages\InstancePages\InstancePage.cs" />
+    <Compile Include="Pages\InstancePages\InstancePage.Map.cs" />
+    <Compile Include="Pages\InstancePages\InstancePageAsserter.cs" />
+    <Compile Include="Pages\KidsAcademyRegistrationChoicePage\KidsAcademyRegistrationChoicePageAsserter.cs" />
+    <Compile Include="Pages\KidsAcademyRegistrationChoicePage\KidsAcademyRegistrationChoicePage.cs" />
+    <Compile Include="Pages\KidsAcademyRegistrationChoicePage\KidsAcademyRegistrationChoicePage.Map.cs" />
+    <Compile Include="Pages\KidsAcademyRegistrationPage\KidsAcademyRegistrationPage.cs" />
+    <Compile Include="Pages\KidsAcademyRegistrationPage\KidsAcademyRegistrationPage.Map.cs" />
+    <Compile Include="Pages\KidsAcademyRegistrationPage\KidsAcademyRegistrationPageAsserter.cs" />
+    <Compile Include="Pages\KidsAcademySuccessPage\KidsAcademySuccessPage.Map.cs" />
+    <Compile Include="Pages\KidsAcademySuccessPage\KidsAcademySuccessPage.cs" />
+    <Compile Include="Pages\KidsAcademySuccessPage\KidsAcademySuccessPageAsserter.cs" />
+    <Compile Include="Pages\LicensesPage\AddLicensePage\AddLicensePage.cs" />
+    <Compile Include="Pages\LicensesPage\AddLicensePage\AddLicensePage.Map.cs" />
+    <Compile Include="Pages\LicensesPage\AddLicensePage\AddLicensePageAsserter.cs" />
+    <Compile Include="Pages\LicensesPage\LicensesPage.cs" />
+    <Compile Include="Pages\LicensesPage\LicensesPage.Map.cs" />
+    <Compile Include="Pages\LicensesPage\LicensesPageAsserter.cs" />
+    <Compile Include="Pages\LoginPage\LoginPage.cs" />
+    <Compile Include="Pages\LoginPage\LoginPage.Map.cs" />
+    <Compile Include="Pages\LoginPage\LoginPageAsserter.cs" />
+    <Compile Include="Pages\NavigationPage\NavigationPage.cs" />
+    <Compile Include="Pages\NavigationPage\NavigationPage.Map.cs" />
+    <Compile Include="Pages\StudentsStatisticsByAgePage\StudentsStatisticsByAgePage.cs" />
+    <Compile Include="Pages\StudentsStatisticsByAgePage\StudentsStatisticsByAgePage.Map.cs" />
+    <Compile Include="Pages\StudentsStatisticsByAgePage\StudentsStatisticsByAgePageAsserter.cs" />
+    <Compile Include="Pages\StudentsStatisticsPage\StudentsStatisticsPage.cs" />
+    <Compile Include="Pages\StudentsStatisticsPage\StudentsStatisticsPage.Map.cs" />
+    <Compile Include="Pages\StudentsStatisticsPage\StudentsStatisticsPageAsserter.cs" />
+    <Compile Include="Pages\StudentsInCoursesPage\StudentsInCoursesFormPage\StudentsInCoursesFormPage.cs" />
+    <Compile Include="Pages\StudentsInCoursesPage\StudentsInCoursesFormPage\StudentsInCoursesFormPage.Map.cs" />
+    <Compile Include="Pages\StudentsInCoursesPage\StudentsInCoursesFormPage\StudentsInCoursesFormPageAsserter.cs" />
+    <Compile Include="Pages\StudentsInCoursesPage\StudentsInCoursesPage.cs" />
+    <Compile Include="Pages\StudentsInCoursesPage\StudentsInCoursesPage.Map.cs" />
+    <Compile Include="Pages\StudentsInCoursesPage\StudentsInCoursesPageAsserter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\TelerikAcademyLearningSystem.Utilities\TelerikAcademyLearningSystem.Utilities.csproj">
+      <Project>{5c09df96-87af-4a8e-8e2b-1d20e7198b96}</Project>
+      <Name>TelerikAcademyLearningSystem.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

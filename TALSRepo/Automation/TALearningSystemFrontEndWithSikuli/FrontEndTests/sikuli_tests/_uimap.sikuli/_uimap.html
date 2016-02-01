@@ -1,0 +1,213 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>_uimap.sikuli</h2> <a href="_uimap.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="cmt">########################################################</span>
+<span class="cmt"># UI map for XYZ</span>
+<span class="cmt">########################################################</span>
+<span class="kw">from</span> sikuli <span class="kw">import</span> *
+<span class="cmt">########################################################    </span>
+<span class="kw">class</span> TALS:
+    button_login = Pattern(<img src="button_login.png" />).similar(<span class="dig">0.67</span>)
+    field_username = <img src="field_username.png" />
+    field_password = <img src="field_password.png" />
+
+    button_entry = <img src="button_entry.png" />
+    giant_test_user_logo = <img src="giant_test_user_logo.png" />
+    fresh_new_user_logo = <img src="fresh_new_user_logo.png" />
+    my_courses = Pattern(<img src="my_courses.png" />).similar(<span class="dig">0.90</span>)
+    course_dsa = <img src="course_dsa.png" />
+    course_dsa_logo = <img src="course_dsa_logo.png" />
+    button_logout = Pattern(<img src="button_logout.png" />).similar(<span class="dig">0.90</span>)
+    giant_test_user_home_logo = <img src="giant_test_user_home_logo.png" />
+    fresh_new_user_home_logo = <img src="fresh_new_user_home_logo.png" />
+    no_courses_menu = <img src="no_courses_menu.png" />
+    c_sharp_part_two = <img src="c_sharp_part_two.png" />
+    test_course_two = <img src="test_course_two.png" />
+    course_c_sharp_part_two_logo = <img src="course_c_sharp_two_logo.png" />
+    test_course_two_logo = <img src="test_course_two_logo.png" />
+    navigation_button_course = <img src="navigation_button_course.png" />
+
+<span class="kw">class</span> Log:
+    label_logoTelerik = <img src="label_logoTelerik.png" />
+    label_username = Pattern(<img src="label_username.png" />).targetOffset(<span class="dig">323</span>,<span class="dig">5</span>)
+    label_password = Pattern(<img src="label_password.png" />).targetOffset(<span class="dig">407</span>,<span class="dig">5</span>)
+    button_entry = Pattern(<img src="button_entry.png" />).similar(<span class="dig">0.90</span>)
+    button_login = <img src="button_login.png" />
+    giant_test_user_logo = <img src="giant_test_user_logo.png" />
+    button_logout = Pattern(<img src="button_logout.png" />).similar(<span class="dig">0.83</span>)
+
+
+<span class="kw">class</span> Archive:
+    logo_TelerikAcademy=<img src="logo_TelerikAcademy.png" />
+    ul_archive=Pattern(<img src="ul_archive.png" />).similar(<span class="dig">0.57</span>)
+
+    li_WebDesign_notHovered=Pattern(<img src="li_WebDesign_notHovered.png" />).similar(<span class="dig">0.98</span>)
+    li_WebDesign_Hovered=Pattern(<img src="li_WebDesign_Hovered.png" />).similar(<span class="dig">0.97</span>)
+    subLi_2222_notHovered=Pattern(<img src="subLi_2222_notHovered.png" />).similar(<span class="dig">0.98</span>)
+    subLi_2222_Hovered=Pattern(<img src="subLi_2222_Hovered.png" />).similar(<span class="dig">0.98</span>)
+
+    li_AlgoAcademy_notHovered=Pattern(<img src="li_AlgoAcademy_notHovered.png" />).similar(<span class="dig">0.91</span>)
+    li_AlgoAcademy_Hovered=Pattern(<img src="li_AlgoAcademy_Hovered.png" />).similar(<span class="dig">0.98</span>)
+
+    li_SchoolAcademy_notHovered=<img src="li_SchoolAcademy_notHovered.png" />
+    li_SchoolAcademy_Hovered=<img src="li_SchoolAcademy_Hovered.png" />
+
+    li_TestCategory_notHovered=Pattern(<img src="li_TestCategory_notHovered.png" />).similar(<span class="dig">0.97</span>)
+    li_TestCategory_Hovered=Pattern(<img src="li_TestCategory_Hovered.png" />).similar(<span class="dig">0.98</span>)
+    TestCategory_3222_notHovered=Pattern(<img src="TestCategory_3222_notHovered.png" />).similar(<span class="dig">0.98</span>)
+    TestCategory_3222_Hovered=Pattern(<img src="TestCategory_3222_Hovered.png" />).similar(<span class="dig">0.98</span>)
+    _3222_TestKategoria2012_notHovered=Pattern(<img src="3222_TestKategoria2012_notHovered.png" />).exact()
+    _3222_TestKategoria2012_Hovered=Pattern(<img src="3222_TestKategoria2012_Hovered.png" />).similar(<span class="dig">0.97</span>)
+    TestKategoria2012_CSharp2012_notHovered=Pattern(<img src="TestKategoria2012_CSharp_notHovered.png" />).similar(<span class="dig">0.98</span>)
+    TestKategoria2012_CSharp2012_Hovered=Pattern(<img src="TestKategoria2012_CSharp2012_Hovered.png" />).similar(<span class="dig">0.97</span>)
+
+    li_Programming_notHovered=Pattern(<img src="li_Programming_notHovered.png" />).similar(<span class="dig">0.98</span>)
+    li_Programming_Hovered=Pattern(<img src="li_Programming_Hovered.png" />).similar(<span class="dig">0.98</span>)
+
+    li_web_ui = <img src="web_ui.png" />
+    web_li_hovered = <img src="web_hovered.png" />
+
+    li_software_technnology = <img src="software_technologies.png" />
+    software_hovered = <img src="softweare_hovered.png" />
+
+    li_edit_cat = <img src="edit_cat.png" />
+    edit_cat_hovered = <img src="edit_cat_hovered.png" />
+
+    li_hey =<img src="hey.png" />
+    hey_hovered = <img src="hey_hovered.png" />
+
+    li_category = <img src="category.png" />
+    category_hovered =<img src="category_hovered.png" />
+
+<span class="kw">class</span> Courses:
+    label_courses = Pattern(<img src="label_courses.png" />).similar(<span class="dig">0.59</span>)
+    archer_homework_eval = <img src="archer.png" />
+    title_archer_course = <img src="title_archer_course.png" />
+    test_course_two = <img src="test_course_two.png" />
+    title_course_tow =<img src="title_course_tow.png" />
+    export_test_course = <img src="exportTestCourse.png" />
+    title_export_test = <img src="title_export_test.png" />
+    test_course_one = <img src="testCourseOne.png" />
+    title_course_one = <img src="title_course_one.png" />
+    data_base = <img src="dataBase.png" />
+    title_data_base = <img src="title_data_base.png" />
+
+<span class="kw">class</span> StudentsInCourses:
+    tille = <img src="tille.png" />
+    button_add = <img src="button_add.png" />
+
+    title_form =<img src="title_form.png" />
+    input_username = <img src="input_username.png" />
+    button_choose = <img src="button_choose_course.png" />
+    buttone_hovered = <img src="buttone_hovered.png" />
+
+
+<span class="kw">class</span> CreateCourse:
+    button_admin = <img src="button_admin.png" />
+    button_instance = <img src="button_Instance.png" />
+    button_add_new_instance = <img src="button_addnewinstance.png" />
+    form_input_course = Pattern(<img src="form_input_course.png" />).targetOffset(<span class="dig">160</span>,<span class="dig">0</span>)
+    form_input_name = Pattern(<img src="form_input_name.png" />).targetOffset(<span class="dig">160</span>,<span class="dig">0</span>)
+    form_input_desc = Pattern(<img src="form_input_desc.png" />).targetOffset(<span class="dig">200</span>,<span class="dig">100</span>)
+    form_licence_dropdown = Pattern(<img src="form_licence_dropdown.png" />).targetOffset(<span class="dig">200</span>,<span class="dig">0</span>)
+    form_licence_option = <img src="form_licence_option.png" />
+    form_category = <img src="form_category.png" />
+    form_input_start_date = Pattern(<img src="form_input_start_date.png" />).targetOffset(<span class="dig">160</span>,<span class="dig">0</span>)
+    form_input_end_date = Pattern(<img src="form_input_end_date.png" />).targetOffset(<span class="dig">160</span>,<span class="dig">0</span>)
+    form_checkbox_active = Pattern(<img src="form_checkbox_active.png" />).targetOffset(<span class="dig">148</span>,-<span class="dig">4</span>)
+    form_checkbox_visible = Pattern(<img src="form_checkbox_visible.png" />).targetOffset(<span class="dig">155</span>,-<span class="dig">5</span>)
+    form_input_lectures = Pattern(<img src="form_input_lectures.png" />).similar(<span class="dig">0.90</span>).targetOffset(<span class="dig">170</span>,<span class="dig">0</span>)
+    form_button_update = <img src="form_button_update.png" />
+    navigation_sikuli_button = <img src="navigation_sikuli_button.png" />
+
+
+<span class="kw">class</span> Admin:
+    button_admin = <img src="botton_admin.png" />
+    button_students_statistics_by_age = <img src="button_studets_statistics_by_age.png" />
+
+<span class="kw">class</span> StudentsStatisticsByAge:
+    menu_select_course = <img src="menu_select_course.png" />
+    menu_years_select = <img src="menu_years_select.png" />
+    select_all_courses = <img src="select_all_courses.png" />
+    one_year_range = <img src="one_year_range.png" />
+    two_years_range = <img src="two_years_range.png" />
+    three_years_range = <img src="three_year_range.png" />
+    five_years_range = <img src="five_years_graph.png" />
+    ten_years_range = <img src="ten_years_graph.png" />
+    select_ten_years = <img src="select_ten_years.png" />
+    select_three_years = <img src="select_three_years.png" />
+    select_two_years = <img src="select_two_years.png" />
+    select_one_year = <img src="select_one_year.png" />
+    menu_years_range_select = <img src="menu_years_range_select.png" />
+</pre>
+</body>
+</html>

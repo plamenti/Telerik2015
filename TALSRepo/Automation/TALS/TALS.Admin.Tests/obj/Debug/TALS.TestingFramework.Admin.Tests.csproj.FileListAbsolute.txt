@@ -1,0 +1,7 @@
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Admin.Tests\bin\Debug\TALS.TestingFramework.Admin.Tests.dll
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Admin.Tests\bin\Debug\TALS.TestingFramework.Admin.Tests.pdb
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Admin.Tests\bin\Debug\TALS.TestingFramework.Core.dll
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Admin.Tests\bin\Debug\TALS.TestingFramework.Core.pdb
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Admin.Tests\obj\Debug\TALS.TestingFramework.Admin.Tests.csprojResolveAssemblyReference.cache
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Admin.Tests\obj\Debug\TALS.TestingFramework.Admin.Tests.dll
+D:\Programming\Telerik2015\QA\TALSRepo\Automation\TALS\TALS.Admin.Tests\obj\Debug\TALS.TestingFramework.Admin.Tests.pdb
